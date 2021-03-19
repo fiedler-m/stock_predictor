@@ -73,7 +73,7 @@ df= pd.read_csv("/Users/mfiedler/build_stock_pred/stock_test.csv")
 app.layout = html.Div([
 
     html.H1("ML Stock Predictions + Interactive Analysis", style={"textAlign": "center"}),
-    html.H6("Created by: Matt Fiedler", style={"textAlign": "center"})
+    html.H5("Created by: Matt Fiedler", style={"textAlign": "center"}),
 
     dcc.Tabs(id="tabs", children=[
 
